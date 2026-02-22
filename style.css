@@ -1,0 +1,35 @@
+h1 {font-family: CodeNewRomanRegular;
+    text-align: center;
+   }
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: black;
+  text-align: center;
+}
+body {
+  background-color:white;
+  background-image:url("images/picture2.jpg"), url("https://giphy.com/stickers/ghost-jet-gc3c3gj-BnY41n55gbyUw");
+  background-size:cover;
+  background-repeat:repeat-y;
+  width: 100%;
+  margin: 0 auto;
+}
+#content {
+  overflow: auto;}
+#nav, #feature, #footer {
+  margin: 1%;}
+li {
+  display: inline;
+  padding: 0.5em;}
+#nav, #footer {
+  background-color: #efefef;
+  padding: 0.5em 0;}
+#feature {
+  background-color:blue;
+  background-image:url("images/picture1.jpg");
+  background-size:cover;
+  background-position:right;
+  background-repeat:no-repeat;}
+.article {
+  height: 10em;
+  margin-bottom: 1em;}
